@@ -1,1 +1,0 @@
-web gunicorn x_hub.wsgi:apllication --log-file -

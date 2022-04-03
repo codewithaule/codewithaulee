@@ -6,23 +6,25 @@
 
 {% block content %}
 
-<section class="container p-3 my-3 border">
+<section id="team" class="row g-0 py-0 text-center" >
       <div class="w3-row-padding w3-margin-top">
           <div class="w3-third">
               <div class="w3-card-4">
-                    <img src="{% static 'assets/img/mypix.jpg'%}"  style="width:55%">
-                    
+                  <img src="{% static 'assets/img/mypix.jpg'%}"  style="width:55%">
+                  <div class="social-icons">
+                        <a href="https://twitter.com/kator07?s=03"><i class="bx bxl-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/aule-gabriel-63a4b421b/"><i class="bx bxl-linkedin"></i></a>
+                        <a href="https://github.com/codewithaule "><i class="bx bxl-github"></i></a>
+                  </div>    
               </div>
-              <section>
-                    <div  type="text">
-                          <h5>AULE GABRIEL  </H5>
-                          <P>software developer</P>
-                          <h5>Address: Nigeria,Benue state,Makurdi </5h>
-                          <h5>software career: Backend developer</5h>
-                          <h5> programming language: python </5h>
-                         <h5>Frame work: django back-end framework,vue js, JavaScript,bootstrap,bulma,css,Html</5h> 
-                   </div>  
-            </section>    
+              <div class="p-4">
+                  <h5 class="title-sm mt-3 mb-0 ">Aule Gabriel</h5>
+                  <small >Full Stack developer</small>
+                  <div class="hline"></div>
+                  <p > Address: Nigeria,Benue state,Makurdi </p>
+                  <p >software career: Backend developer</p>
+                  <p > programming language: python , Frame work: django back-end framework,vue js, JavaScript,bootstrap,bulma,css,Html</p> 
+               </div>
         </div>
       </div>
 </section>
